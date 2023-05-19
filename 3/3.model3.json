@@ -1,0 +1,34 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "3.moc3",
+    "Textures": [
+      "textures/3.png"
+    ],
+    "Physics": null,
+    "Motions": {
+      "Idle": [
+        {
+          "File": "motions/b_idle.motion3.json"
+        }
+      ],
+	  "Idle2": [
+        {
+          "File": "motions/t_idle.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Text": ""
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Text": ""
+    }
+  ]
+}
